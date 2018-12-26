@@ -1,0 +1,17 @@
+-REST(Representational State Transfe):
+
++ Architectural Pattern with design guidelines (Mô hình kiến ​​trúc với hướng dẫn thiết kế)
+
++ HTTP is usually the underlying protocol
+
++ sử dụng các phương thức HTTP một cách rõ ràng
+
++ Mỗi tài nguyên Restful có một ID duy nhất (Every Restful resource has a unique ID)
+
+ + Client state is not persisted between requests
+
+ + Caching Policy for responses
+
+ + Separation of concerns between clients and servers (Tách biệt mối quan tâm giữa client  và server)
+
+ + Layered system

@@ -1,0 +1,18 @@
+
+-What HTTP (HyperText Transfer Protocol) :
+ 
+ + Application Layer Protocol 
+
+ + Built on top of TCP/IP protocol
+
+ + Rules for transferring resources
+
+ + Mọi yêu cầu HTTP được thực hiện độc lập mà không có kiến ​​thức về các yêu cầu xuất hiện trước nó
+
+ + HTTP is stateless
+  
+ + TCP/IP is not stateless
+
+ + payload (body/data) can be anything as long as it is defined in header
+
+ 

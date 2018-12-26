@@ -1,0 +1,22 @@
+- Authencation : 
++ Nhập đúng username & password, chứng tỏ mình đúng là người đã đăng ký, hệ thống cho phép đăng nhập để sử dụng dịch vụ, đây gọi là "authentication"
+
+-Authorization :
++ Dù đăng nhập đúng, nhưng nếu chỉ là thành viên thường, không phải admin, thì chỉ được xem hạn chế một vài mục, đây gọi là "authoriztion"
+
+"authentication" được dịch là "chứng thực nhận dạng".
+"authorization" được dịch là "phân quyền/ cấp phép".
+
+->"authentication" phải đi trước "authorization".
+
+---Web/app :
+
+- Cách cổ điển: Nhập username và password.
+- Cách hiện đại: Mượn mạng xã hội (như Twitter, Facebook) để đăng nhập, gọi là OAuth -> Vô cùng tiện, đỡ phải nhớ lằng nhằng. Để biết kỹ về OAuth, tốt nhất là đọc tài liệu của nó, hoặc Wikipedia. Còn hiện tại, bản thân cứ hiểu nôm na (dù vẫn còn khá xa so với sự thực) về loại authentication sử dụng bên thứ 3 này là:
+Thay vì phải nhớ 2 username và 2 password để đăng nhập vào dịch vụ A và dịch B, bây giờ ta chỉ cần nhớ username và password của dịch vụ A.
+Mỗi lần đăng nhập vào B, ta làm các bước:
+Quay sang A, xin hắn cái thư đảm bảo rằng ta là chính chủ của 1 account do A cung cấp.
+Quay sang B, cầm thư đảm bảo của A đưa cho B.
+Vậy là B cho ta đăng nhập.
+Cái "thư đảm bảo" nói trên có hình thức sao, format kiểu gì, nội dung ra sao, rồi cách thức trao đổi thư từ thế nào thì phải đọc chi tiết OAuth. Nói lung tung bị chửi ngay.
+
